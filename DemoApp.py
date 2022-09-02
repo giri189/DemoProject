@@ -6,6 +6,6 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def home():
-    return "Hellooo Welcome"
+    return "Hel Welcome"
 
 app.run()
